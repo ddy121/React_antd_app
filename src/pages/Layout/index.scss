@@ -1,0 +1,63 @@
+.header {
+    padding: 0;
+    background-color: white !important;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    background: url('~@/assets/logo.png') no-repeat center / 160px auto;
+}
+
+.layout-context {
+    overflow-y: auto;
+
+}
+
+.user-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.user-name {
+    margin-right: 20px;
+    color: black;
+}
+
+.user-logout {
+    display: inline-block;
+    //变成手型
+    cursor: pointer;
+
+    span {
+
+        color: black !important;
+        // text-decoration:underline
+
+    }
+
+    span:hover {
+        border-bottom: 1px solid black;
+    }
+
+}
+
+.ant-layout-header {
+    padding: 0 !important;
+}
+
+.giao {
+    background-color: white !important;
+
+}
+
+
+.ant-menu-title-content {
+    color: black
+}
+.ant-layout:nth-child(1)::before{
+    content: '';      display: block;      clear:both;
+}
